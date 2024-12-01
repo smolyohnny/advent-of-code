@@ -24,13 +24,16 @@ public class Day1 {
         solvePart2();
     }
 
+    //Counts the distances between each pair
     private static void solvePart1() {
         for (int i = 0; i < col1.size(); i++) {
+            //Math.abs() makes sure there are no negative values as a distance
             sum1 += Math.abs(col1.get(i) - col2.get(i));
         }
         System.out.println(sum1);
     }
 
+    //Counts how often each number from col1 appears in col2
     private static void solvePart2() {
         for (int i : col1) {
             int appearances = 0;
