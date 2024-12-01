@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/y2023/inputs/
+/src/y2024/inputs/
