@@ -54,5 +54,4 @@ public class Day1 {
         Collections.sort(col1);
         Collections.sort(col2);
     }
-
 }
