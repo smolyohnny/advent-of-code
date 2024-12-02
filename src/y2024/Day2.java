@@ -79,8 +79,7 @@ public class Day2 {
                         }
                     } else break;
                 }
-            }
-            if (safe) sum2++;
+            }if (safe) sum2++;
         }
         System.out.println(sum2);
     }
