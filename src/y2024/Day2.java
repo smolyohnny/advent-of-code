@@ -65,25 +65,27 @@ public class Day2 {
             for (int l = 0; l < numArr.length; l++) {
                 int[] altArr = removeElement(numArr, l);
 
-                for (int i = 0; i < altArr.length-1; i++) {
-                    if (altArr[i] > altArr[i+1] && (altArr[i]-altArr[i+1] <= 3)) {
-                        if (i == altArr.length-2) {
+                for (int i = 0; i < altArr.length - 1; i++) {
+                    if (altArr[i] > altArr[i + 1] && (altArr[i] - altArr[i + 1] <= 3)) {
+                        if (i == altArr.length - 2) {
                             safe = true;
                         }
                     } else break;
                 }
-                for (int i = 0; i < altArr.length-1; i++) {
-                    if (altArr[i] < altArr[i+1] && (altArr[i+1]-altArr[i] <= 3)) {
-                        if (i == altArr.length-2) {
+                for (int i = 0; i < altArr.length - 1; i++) {
+                    if (altArr[i] < altArr[i + 1] && (altArr[i + 1] - altArr[i] <= 3)) {
+                        if (i == altArr.length - 2) {
                             safe = true;
                         }
                     } else break;
                 }
-            }if (safe) sum2++;
+            }
+            if (safe) sum2++;
         }
         System.out.println(sum2);
     }
-    public static int[] removeElement(int[] arr, int index){
+
+    public static int[] removeElement(int[] arr, int index) {
         List<Integer> tempList = IntStream.of(arr).boxed().collect(Collectors.toList());
 
         tempList.remove(index);
