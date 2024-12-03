@@ -9,6 +9,9 @@ import java.util.regex.Pattern;
 public class Day3 {
 
     private static final Path path = Path.of("src\\y2024\\inputs\\day3.txt");
+    private static final Pattern mulPattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");
+    private static final Pattern doPattern = Pattern.compile("do\\(\\)");
+    private static final Pattern dontPattern = Pattern.compile("don't\\(\\)");
     private static int sum1 = 0;
     private static int sum2 = 0;
 
@@ -27,18 +30,13 @@ public class Day3 {
     }
 
     private static void solvePart1(String input) {
-        Pattern pattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");
-        Matcher matcher = pattern.matcher(input);
+        Matcher matcher = mulPattern.matcher(input);
 
         while (matcher.find()) sum1 += Integer.parseInt(matcher.group(1)) * Integer.parseInt(matcher.group(2));
         System.out.println(sum1);
     }
 
     private static void solvePart2(String input) {
-        Pattern mulPattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");
-        Pattern doPattern = Pattern.compile("do\\(\\)");
-        Pattern dontPattern = Pattern.compile("don't\\(\\)");
-
         Matcher mulMatcher = mulPattern.matcher(input);
         Matcher doMatcher = doPattern.matcher(input);
         Matcher dontMatcher = dontPattern.matcher(input);
@@ -84,7 +82,7 @@ public class Day3 {
                                     for (int k = 1; k < 5; k++) {
                                         int position = i + 4 + String.valueOf(num1).length() + k;
                                         if (Character.isDigit(chars[position])) {
-                                            int temp = Character.getNumericValue(chars[i + 4 + String.valueOf(num1).length() + k]);
+                                            int temp = Character.getNumericValue(chars[position]);
                                             num2 = num2 * 10 + temp;
                                         } else if (chars[position] == ')' && num2 > 0) {
                                             sum2 += num1 * num2;
