@@ -5,4 +5,5 @@
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day3.java"> Day 3 </a> ⭐⭐<br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day4.java"> Day 4 </a> ⭐⭐<br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day5.java"> Day 5 </a> ⭐⭐<br>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day6.java"> Day 6 </a> ⭐⭐<br>
 
