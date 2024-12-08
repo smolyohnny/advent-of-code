@@ -7,5 +7,4 @@
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day5.java"> Day 5: Print Queue </a> ⭐⭐<br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day6.java"> Day 6: Guard Gallivant </a> ⭐⭐<br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day7.java"> Day 7: Bridge Repair </a> ⭐⭐<br>
-
-
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day8.java"> Day 8: Resonant Collinearity </a> ⭐⭐<br>
