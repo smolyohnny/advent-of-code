@@ -78,10 +78,10 @@ public class Day9 {
 
                 int dot = findDot(start, numberCount);
                 if (dot > 0) {
-                    int swapPostition = start + 1;
+                    int swapPosition = start + 1;
                     for (int j = dot; j < dot + numberCount; j++) {
-                        Collections.swap(stringList, j, swapPostition);
-                        swapPostition++;
+                        Collections.swap(stringList, j, swapPosition);
+                        swapPosition++;
                     }
                 }
             }
