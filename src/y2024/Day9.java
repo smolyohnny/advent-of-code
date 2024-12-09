@@ -17,6 +17,7 @@ public class Day9 {
             throw new RuntimeException(e);
         }
     }
+
     private static final List<String> stringList = new ArrayList<>();
     private static long sum = 0;
     private static long sum2 = 0;
@@ -76,7 +77,6 @@ public class Day9 {
                 int numberCount = i - start;
 
                 int dot = findDot(start, numberCount);
-
                 if (dot > 0) {
                     int swapPostition = start + 1;
                     for (int j = dot; j < dot + numberCount; j++) {
@@ -100,7 +100,6 @@ public class Day9 {
                 dotCount = 0;
                 dotPosition = 0;
             }
-
             if (dotCount >= numberCount) {
                 return dotPosition;
             }
