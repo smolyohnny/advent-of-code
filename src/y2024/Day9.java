@@ -39,17 +39,18 @@ public class Day9 {
     }
 
     private static void sortStringList1() {
+        int lastDot = 0;
         for (int i = stringList.size() - 1; i >= 0; i--) {
-            int dotPosition = 0;
-            for (int j = 0; j <= i; j++) {
-                if (stringList.get(j).equals(".")) {
-                    dotPosition = j;
-                    break;
+            if (!stringList.get(i).equals(".")) {
+                for (int j = lastDot; j <= i; j++) {
+                    if (stringList.get(j).equals(".")) {
+                        Collections.swap(stringList, i, j);
+                        lastDot = j;
+                        break;
+                    }
                 }
             }
-            if (dotPosition != 0) {
-                Collections.swap(stringList, i, dotPosition);
-            }
+
         }
     }
 
