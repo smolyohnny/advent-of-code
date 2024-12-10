@@ -18,14 +18,16 @@ public class Day10 {
     }
     private static final int[][] array = new int[input.size()][input.getFirst().length()];
     private static final List<List<Integer>> positions = new ArrayList<>();
+    private static final List<Integer> paths = new ArrayList<>();
 
     public static void main(String[] args) {
         fill2DArray();
-        solvePart1();
+        solve();
     }
 
-    private static void solvePart1() {
+    private static void solve() {
         int sum = 0;
+        int ways = 0;
         int row = 0;
         for (int[] line : array) {
             int index = 0;
@@ -33,21 +35,27 @@ public class Day10 {
                 if (element == 0) {
                     findValidPath(row, index, 0);
                     sum += positions.size();
+                    ways += paths.size();
+                    paths.clear();
                     positions.clear();
                 }
                 index++;
             }
             row++;
         }
-        System.out.println(sum);
+        System.out.println("Part 1: " + sum);
+        System.out.println("Part 2: " + ways);
     }
 
     private static void findValidPath(int row, int index, int value) {
         if (value == 9) {
             if (array[row][index] == 9) {
+                paths.add(1);
                 if (!positions.contains(Arrays.asList(row, index))) {
                     positions.add(Arrays.asList(row, index));
                 }
+                return;
+
             }
             else return;
         }
