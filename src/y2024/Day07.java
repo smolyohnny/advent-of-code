@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day7 {
+public class Day07 {
 
     private static final List<String> input;
     static {

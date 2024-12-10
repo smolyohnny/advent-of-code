@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Day2 {
+public class Day02 {
 
     private static final Path path = Path.of("src\\y2024\\inputs\\day2.txt");
     private static int sum = 0;

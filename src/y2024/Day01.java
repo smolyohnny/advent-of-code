@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Day1 {
+public class Day01 {
 
     private static final Path path = Path.of("src\\y2024\\inputs\\day1.txt");
     private static List<String> input = new ArrayList<>();

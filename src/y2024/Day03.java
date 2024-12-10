@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Day3 {
+public class Day03 {
 
     private static final Path path = Path.of("src\\y2024\\inputs\\day3.txt");
     private static final Pattern mulPattern = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)");

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Day9 {
+public class Day09 {
     private static final char[] input;
 
     static {

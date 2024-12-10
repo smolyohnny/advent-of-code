@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class Day4 {
+public class Day04 {
 
     private static final List<String> input;
     static {
