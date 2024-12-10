@@ -16,9 +16,11 @@
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day6.java"> Day 6: Guard Gallivant </a> <br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day7.java"> Day 7: Bridge Repair </a> <br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day8.java"> Day 8: Resonant Collinearity </a> <br>
-<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day9.java"> Day 9: Disk Fragmenter </a>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day9.java"> Day 9: Disk Fragmenter </a> <br>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day10.java"> Day 10: Hoof It </a> <br>
 </td>
 <td>
+⭐⭐ <br>
 ⭐⭐ <br>
 ⭐⭐ <br>
 ⭐⭐ <br>
