@@ -18,8 +18,10 @@
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day08.java"> Day 8: Resonant Collinearity </a> <br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day09.java"> Day 9: Disk Fragmenter </a> <br>
 <a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day10.java"> Day 10: Hoof It </a> <br>
-<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day10.java"> Day 11: Plutonian Pebbles </a> <br>
-<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day10.java"> Day 12: Garden Groups </a> <br>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day11.java"> Day 11: Plutonian Pebbles </a> <br>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day12.java"> Day 12: Garden Groups </a> <br>
+<a href="https://github.com/smolyohnny/advent-of-code/blob/master/src/y2024/Day13.java"> Day 13: Claw Contraption </a> <br>
+
 </td>
 <td>
 ⭐⭐ <br>
@@ -32,6 +34,7 @@
 ⭐⭐ <br>
 ⭐⭐ <br>
 ⭐⭐ <br>
+⭐ <br>
 ⭐ <br>
 ⭐ <br>
 </td>
