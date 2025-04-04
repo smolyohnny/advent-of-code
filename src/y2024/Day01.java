@@ -3,9 +3,7 @@ package y2024;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Day01 {
 
@@ -27,7 +25,6 @@ public class Day01 {
     //Counts the distances between each pair
     private static void solvePart1() {
         for (int i = 0; i < col1.size(); i++) {
-            //Math.abs() makes sure there are no negative values as a distance
             sum1 += Math.abs(col1.get(i) - col2.get(i));
         }
         System.out.println(sum1);
